@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Inter,sans-serif;
+    /*cursor: url(https://img.icons8.com/office/32/4a90e2/one-finger.png), pointer;*/ /*Permet de changer le curseur*/
+}
+
+body{
+    background-color: #171924;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #171924;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+
+#block-form{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 900px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#header-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+#header-form img{
+    height: 70px;
+}
+
+#block-form #formulaire{
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 490px;
+    margin-top: 0px;
+}
+
+#block-form #formulaire #prenom, #nom{
+    margin-right: 30px;
+    width: 185px;
+    height: 30px;
+    padding-left: 7px;
+}
+
+#block-form #formulaire #mail{
+    width: 406px;
+    margin-top: 20px;
+    height: 30px;
+    padding-left: 7px;
+    margin-bottom: 30px;
+}
+
+
+#block-form #formulaire #INE{
+    margin-top: 30px;
+    width: 185px;
+    height: 30px;
+    padding-left: 7px;
+    margin-bottom: 10px;
+}
+
+#block-form #formulaire #mail{
+    width: 406px;
+    margin-top: 20px;
+    height: 30px;
+    padding-left: 7px;
+    margin-bottom: 30px;
+}
+
+#block-form #formulaire #mdp{
+    width: 200px;
+    height: 30px;
+    padding-left: 7px;
+}
+
+#button{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: blue;
+}
+
+
+
+#button p{
+   display: flex;
+   color: #fff;
+   margin-left: 50px;
+   padding-top: 10px;
+}
+
+#connexion{
+    margin-left: 50px;
+    margin-top: 60px;
+    color: black;
+}
+
+#button-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+svg{
+    margin-right: 20px;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #181818;
+    }
+    #button{
+        background-color: #181818;
+    }
+    
+}

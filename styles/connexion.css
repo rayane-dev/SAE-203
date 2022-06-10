@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Inter,sans-serif;
+    /*cursor: url(https://img.icons8.com/office/32/4a90e2/one-finger.png), pointer;*/ /*Permet de changer le curseur*/
+}
+
+
+body{
+    background-color: #171924;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+
+#block-form{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 450px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#block-form img{
+    height: 90px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    transition: 1s ease;
+}
+
+#block-form img:hover{
+    transform : rotate(250deg);
+}
+
+h1, p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+#block-form #formulaire{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input{
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#button {
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    margin-top: 60px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+#button p{
+    color: #fff;
+    padding-top: 8px;
+}
+
+#button-part{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#connexion{
+    color: black;
+    padding-left: 10px;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #181818;
+    }
+    #button {
+        background-color: #181818;
+    }
+    #connexion{
+        color: black;
+    }
+}
+
